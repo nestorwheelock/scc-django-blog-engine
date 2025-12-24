@@ -166,7 +166,7 @@ fetch('/blog/post/123/comment/', {
 
 ## License
 
-MIT License - see LICENSE file.
+Proprietary - see LICENSE file. For licensing inquiries, contact nestor@nestorwheelock.com
 
 ## Author
 

@@ -7,7 +7,7 @@ name = "django-blog-engine"
 version = "0.1.0"
 description = "A modern Django blog engine with content-addressed media, AI enhancement tracking, and flexible visibility controls"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "Proprietary"}
 authors = [
     {name = "Nestor Wheelock", email = "nestor@nestorwheelock.com"}
 ]
@@ -25,7 +25,7 @@ classifiers = [
     "Framework :: Django :: 4.2",
     "Framework :: Django :: 5.0",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
+    "License :: Other/Proprietary License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
@@ -50,10 +50,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/nestorwheelock/django-blog-engine"
-Documentation = "https://github.com/nestorwheelock/django-blog-engine#readme"
-Repository = "https://github.com/nestorwheelock/django-blog-engine"
-Issues = "https://github.com/nestorwheelock/django-blog-engine/issues"
+Homepage = "https://github.com/nestorwheelock/scc-django-blog-engine"
+Documentation = "https://github.com/nestorwheelock/scc-django-blog-engine#readme"
+Repository = "https://github.com/nestorwheelock/scc-django-blog-engine"
+Issues = "https://github.com/nestorwheelock/scc-django-blog-engine/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["blog_engine"]
