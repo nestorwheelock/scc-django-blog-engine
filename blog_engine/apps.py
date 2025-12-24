@@ -10,8 +10,13 @@ class BlogEngineConfig(AppConfig):
     verbose_name = "Blog Engine"
 
     def ready(self):
-        """Import signals when app is ready."""
+        """Configure app when ready."""
+        # Import signals if available
         try:
             from . import signals  # noqa: F401
         except ImportError:
             pass
+
+        # Configure legacy table names if enabled
+        from .conf import configure_legacy_tables
+        configure_legacy_tables()
